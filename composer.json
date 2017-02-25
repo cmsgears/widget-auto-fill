@@ -1,0 +1,19 @@
+{
+	"name": "cmsgears/widget-auto-fill",
+	"description": "The Auto Fill Widget for CMSGears. It provide options to add auto-suggest feature with input field.",
+	"homepage": "http://www.cmsgears.org",
+	"type": "package",
+	"keywords": [ "yii", "yii2", "cmsgears", "widget", "auto", "fill" ],
+	"license": "GPLv3",
+	"support": {
+		"resources": "http://www.cmsgears.org"
+	},
+	"autoload": {
+		"psr-4": {
+			"cmsgears\\widgets\\auto\\fill\\": ""
+		}
+	},
+    "require": {
+        "cmsgears/module-core": "*"
+    }
+}
